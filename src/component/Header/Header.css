@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+.tital{
+    padding-right: 750px;
+    color: rgb(236, 241, 243);
+    font-weight: 700;
+    font-family: 'Akronim', cursive;
+}
+.nav-link{
+    color: white;
+}
+.navbar{
+    background-color:#078080;
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    color: white;
+    
+}
+
+/* 078080 */
