@@ -12,17 +12,17 @@ const Footer = () => {
                 <p><FontAwesomeIcon className="icon" icon={faPhone} />Phone:098766545</p>
 
                 
-            </div>
+            </div>  
             <div>
                 <h3>About</h3>
-                <p><FontAwesomeIcon className="icon" icon={faListUl} />Online line Programming course </p>
+                <p><FontAwesomeIcon className="icon" icon={faListUl} />Online line Programming learning site </p>
                 <p><FontAwesomeIcon className="icon" icon={faListUl} />High quality video content</p>
                 <p><FontAwesomeIcon className="icon" icon={faListUl} />Best programming teachers</p>
 
             </div>
             <div>
                 <h3>Address</h3>
-                <address><FontAwesomeIcon className="icon" icon={faAddressCard} />
+                < address className="address"><FontAwesomeIcon className="icon" icon={faAddressCard} />
                     Street:  41, arambagh, motijheel c/a, 1000
 
                     City:   Dhaka

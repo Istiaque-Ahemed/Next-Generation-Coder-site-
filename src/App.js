@@ -9,6 +9,7 @@ import NotFound from './component/NotFound/NotFound';
 import Programar from './component/Programar/Programar';
 import Proheader from './component/proheadr/Proheader'
 import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
+import HomeImage from './component/HomeImage/HomeImage';
 
 
 
@@ -34,6 +35,7 @@ function App() {
           </Route>
           <Route path="/home">
             <Header></Header>
+            <HomeImage></HomeImage>
             <Home></Home>
             <Footer></Footer>
           </Route>

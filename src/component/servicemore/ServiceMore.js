@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faHourglass,faUserCheck ,faShoppingCart,faVideo,faStar} from '@fortawesome/free-solid-svg-icons'
 import './ServiceMore.css';
 
+
 const ServiceMore = (props) => {
 
     console.log(props.serviceMore.name);
@@ -11,7 +12,9 @@ const ServiceMore = (props) => {
 
     return (
         
+        
         <div>
+    
             <Card className='card'>
     <Card.Img variant="top" src={image} />
     <Card.Body>
@@ -24,13 +27,12 @@ const ServiceMore = (props) => {
       <small className="student"><FontAwesomeIcon className="icon" icon={faUserCheck} />{student}</small>
     </Card.Body>
     <div className="star">
-        <FontAwesomeIcon className="icon" icon={faStar} />
+       <small className="rat">Ratting:</small> <FontAwesomeIcon className="icon" icon={faStar} />
         <FontAwesomeIcon className="icon" icon={faStar} />
         <FontAwesomeIcon className="icon" icon={faStar} />
         <FontAwesomeIcon className="icon" icon={faStar} />
         <FontAwesomeIcon className="icon" icon={faStar} />
         </div>
-    <Button variant="success"><FontAwesomeIcon className="icon" icon={faShoppingCart} />Buy Course</Button>
 
   </Card>
         </div>

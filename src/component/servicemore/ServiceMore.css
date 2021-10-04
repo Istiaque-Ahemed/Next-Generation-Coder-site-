@@ -1,7 +1,12 @@
 .star{
     text-align: center;
     color: rgb(219, 194, 112);
+    padding-bottom: 300px;
 }
 .card{
+    margin-top: 50px;
     height: 500px;
+}
+.rat{
+    color: black;
 }

@@ -1,0 +1,13 @@
+.happy-code{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.happy-code img{
+    width: 600px;
+   
+}
+.happy-code h1{
+    padding-bottom: 20px;
+    text-align: center;
+    margin-top: 150px;
+}
