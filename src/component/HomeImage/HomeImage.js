@@ -16,4 +16,4 @@ const HomeImage = () => {
     );
 };
 
-export default HomeImage;<img src="" alt="" />
+export default HomeImage;

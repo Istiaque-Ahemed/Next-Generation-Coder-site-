@@ -6,6 +6,9 @@ import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
+
+    // ========Header =======
+    // =============NavBar=========== 
     <div className="navbar">
           <Navbar.Brand className="tital">Next Generation Code Center</Navbar.Brand> <Navbar expand="lg">
             <NavLink activeStyle={{

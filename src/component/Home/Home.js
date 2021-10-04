@@ -6,7 +6,7 @@ import Service from '../service/Service';
 
 const Home = () => {
     const [services, setServices] = useState([]);
-
+// ========fackData ========
 
     useEffect(() => {
         fetch('./home.JSON')
@@ -16,6 +16,7 @@ const Home = () => {
 
     return (
         <div className="course-card ">
+            {/*====== maping =====*/}
             {
                 services.map(service => <Service
                     key={service.id}
