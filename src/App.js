@@ -7,23 +7,57 @@ import Home from './component/Home/Home';
 import MoreService from './component/MoreService/MoreService';
 import NotFound from './component/NotFound/NotFound';
 import Programar from './component/Programar/Programar';
-import {
-  BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
+import Proheader from './component/proheadr/Proheader'
+import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
+
 
 
 
 function App() {
   return (
     <div className="App">
-      {/* <Header></Header>
-      <Home></Home>
+      
+      {/* <Home></Home>
       <MoreService></MoreService>
-      <Footer></Footer>
+  
       <About></About>
       <Programar></Programar>
       <NotFound></NotFound> */}
+    
 
-      <Bro
+      <Router>
+        <Switch>
+          <Route exact path="/">
+          <Header></Header>
+            <Home></Home>
+            <Footer></Footer>
+          </Route>
+          <Route path="/home">
+            <Header></Header>
+            <Home></Home>
+            <Footer></Footer>
+          </Route>
+          <Route path="/services">
+            <Header></Header>
+            <MoreService></MoreService>
+            <Footer></Footer>
+          </Route>
+          <Route path="/about">
+            <Header></Header>
+            <About></About>
+            <Footer></Footer>
+          </Route>
+          <Route path="/programars">
+             <Header></Header>
+             <Proheader></Proheader>
+             <Programar></Programar>
+             <Footer></Footer>
+          </Route>
+          <Route path="*">
+            <NotFound></NotFound> 
+          </Route>
+        </Switch>
+      </Router>
       
     
     </div>

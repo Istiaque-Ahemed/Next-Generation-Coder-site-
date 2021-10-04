@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
 .tital{
-    padding-right: 750px;
+    /* padding-right: 750px; */
     color: rgb(236, 241, 243);
     font-weight: 700;
     font-family: 'Akronim', cursive;
+    margin-right: 500px;
 }
 .nav-link{
     color: white;
@@ -15,6 +16,12 @@
     justify-content: flex-end;
     color: white;
     
+}
+.link{
+    text-decoration: none;
+    padding-left: 40px;
+    color: white;
+    margin-right: 4px;
 }
 
 /* 078080 */
