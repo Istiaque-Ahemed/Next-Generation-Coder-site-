@@ -1,0 +1,23 @@
+.card{
+    width: 300px;
+    display: flex;
+}
+.lesson{
+    padding-left:10px;
+    color: red;
+}
+.category{
+    padding-left: 50px;
+    color: red;
+}
+.student{
+    padding-left: 20px;
+    color: red;
+}
+.icon{
+    margin-right: 4px;
+}
+.star{
+    text-align: center;
+    color: rgb(219, 194, 112);
+}

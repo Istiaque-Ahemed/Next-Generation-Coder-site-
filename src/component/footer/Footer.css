@@ -1,4 +1,11 @@
 .footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     background-color: #078080;
     margin-top: 10px;
+    text-align: center;
+}
+.footer h3{
+    color: white;
+    
 }
