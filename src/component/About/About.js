@@ -1,10 +1,11 @@
 import React from 'react';
+import img from './JavaScript frameworks-bro.png'
 import './About.css'
 
 const About = () => {
     return (
         <div className="about">
-            <img src="../../../public/JavaScript frameworks-bro.png" alt="" />
+            <img className="img" src={img} alt="" />
             <h1>ASP / ASP.NET</h1>
             <p>ASP is short for Active Server Pages. It was the first server-side scripting language for Microsoft’s IIS web server. ASP was replaced by ASP.NET, an open-source server-side framework. See: ASP hosting.</p>
 

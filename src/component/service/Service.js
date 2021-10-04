@@ -7,6 +7,7 @@ import './Service.css'
 const Service = (props) => {
     const {name,category,lessons,student,image}=props.service
     return (
+        
         <div>
             <Card className='card'>
     <Card.Img variant="top" src={image} />
