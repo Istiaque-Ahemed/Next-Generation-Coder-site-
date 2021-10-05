@@ -5,4 +5,5 @@
 
  *  Programming can be learned on this website.
  *  Programming is taught in seven languages.
- *  Easy to learn
+ *  Get to know the seven best programar.
+ *  Easy to learn.
