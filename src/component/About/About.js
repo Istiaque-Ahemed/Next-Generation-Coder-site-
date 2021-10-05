@@ -9,6 +9,7 @@ const About = () => {
         
         <div className="about">
             <img className="img" src={img} alt="" />
+            
             <hr />
             <h1>ASP / ASP.NET</h1>
             <p>ASP is short for Active Server Pages. It was the first server-side scripting language for Microsoft’s IIS web server. ASP was replaced by ASP.NET, an open-source server-side framework. See: ASP hosting.</p>

@@ -6,7 +6,7 @@ import ServiceMore from '../servicemore/ServiceMore'
 
 const MoreService = () => {
     const [moreservice,setMoreservice] = useState([]);
-
+    //=======  Services fack Data =======
     useEffect(()=>{
         fetch('./service.JSON')
         .then(res => res.json())
@@ -15,6 +15,7 @@ const MoreService = () => {
     },[])
     return (
         <div className="course-detials">
+            {/*======= Maping====== */}
             {
                 moreservice.map(serviceMore=><ServiceMore
                 

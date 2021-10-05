@@ -10,6 +10,9 @@ import Programar from './component/Programar/Programar';
 import Proheader from './component/proheadr/Proheader'
 import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 import HomeImage from './component/HomeImage/HomeImage';
+import ServiceHeader from '../src/component/ServiceHeader/ServiceHeader';
+import Contact from './component/Contact/Contact';
+
 
 
 
@@ -36,6 +39,8 @@ function App() {
          {/* Header , MoreSErvice, Footer  */}
           <Route path="/services">
             <Header></Header>
+            <ServiceHeader></ServiceHeader>
+
             <MoreService></MoreService>
             <Footer></Footer>
           </Route>
@@ -52,10 +57,18 @@ function App() {
              <Programar></Programar>
              <Footer></Footer>
           </Route>
+          <Route path="/contract">
+          <Header></Header>
+          <Contact></Contact>
+          <Footer></Footer>
+          </Route>
          {/* NotFound */}
 
           <Route path="*">
+            <Header></Header>
             <NotFound></NotFound> 
+            <Footer></Footer>
+
           </Route>
         </Switch>
       </Router>

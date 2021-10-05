@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faEnvelope,faPhone,faListUl,faAddressCard} from '@fortawesome/free-solid-svg-icons'
+import {faEnvelope,faPhone,faListUl,faAddressCard,faCopyright} from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
     return (
@@ -22,6 +22,7 @@ const Footer = () => {
                 <p><FontAwesomeIcon className="icon" icon={faListUl} />Online line Programming learning site </p>
                 <p><FontAwesomeIcon className="icon" icon={faListUl} />High quality video content</p>
                 <p><FontAwesomeIcon className="icon" icon={faListUl} />Best programming teachers</p>
+                <small className="copy-right">CopyRight<FontAwesomeIcon className="icon" icon={faCopyright} />Istiaque</small>  
 
             </div>
             <div>
@@ -43,6 +44,7 @@ const Footer = () => {
                     Country  Bangladesh
                 </address>
             </div>
+            
         </div>
     );
 };
